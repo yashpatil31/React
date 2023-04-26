@@ -1,0 +1,49 @@
+.formitem_container{
+    margin: 0 auto;
+    display: flex;
+    max-width: 75%;
+    flex-direction: column;
+}
+
+.newexpense_form_item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.newexpense_form_item label{
+    font-size: 2rem;
+}
+
+.newexpense_form_item input{
+    height: 2.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.newexpense_form_item input:focus{
+    border: 2px solid rgb(0, 149, 255);
+}
+
+.btn_container{
+    margin-top: 0.5rem;
+}
+
+.btn_container button{
+    width: 25%;
+    padding: 1rem;
+    margin: 30px auto;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: #FF99E6;
+    color: #ecf0f1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    outline: none;   
+}
